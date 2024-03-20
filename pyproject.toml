@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_samreynoldsmath"
-version = "0.1.5"
+version = "0.1.6"
 authors = [
   { name="Sam Reynolds", email="sreyn@proton.me" },
 ]
@@ -18,9 +18,8 @@ classifiers = [
 ]
 
 [options]
-install_requires = [
-    "numpy>=1.26.0",
-]
+install_requires =
+    numpy >= 1.26.0
 
 [project.urls]
 Homepage = "https://github.com/samreynoldsmath/PythonPackageTemplate"

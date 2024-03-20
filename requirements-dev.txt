@@ -1,0 +1,9 @@
+# necessary imports
+numpy
+# dev imports
+black
+flake8
+isort
+mypy
+pylint
+pytest

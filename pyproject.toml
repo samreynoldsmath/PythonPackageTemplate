@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 80
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
+
+[tool.pylint."messages control"]
+max-line-length = 80
+disable = [
+    "fixme", # reenable to find TODO comments
+    "invalid-name", # use good-names
+    ]
+good-names = [
+    "A",
+    ]

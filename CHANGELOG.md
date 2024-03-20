@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v0.1.2
+- [x] try cleaning the `dist` directory before building the package
+
 ## v0.1.1
 - [x] add `numpy` to dependencies in `pyproject.toml`
 - [x] update installation instructions in `README.md`

@@ -5,7 +5,7 @@ import numpy as np
 
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
-import mypackage
+import example_package_samreynoldsmath as mypackage
 
 TOL = 1e-12
 

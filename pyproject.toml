@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_samreynoldsmath"
-version = "0.1.7"
+version = "0.1.8"
 authors = [
   { name="Sam Reynolds", email="sreyn@proton.me" },
 ]
@@ -13,7 +13,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 dependencies = [
-  "numpy>=1.20.0",
+  "numpy>=1.9.0",
 ]
 classifiers = [
   "Programming Language :: Python :: 3",

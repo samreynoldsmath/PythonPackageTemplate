@@ -5,7 +5,7 @@ A simple demo of how to structure and use a Python package
 
 ## Installation
 ```bash
-pip install samreynoldsmathtestpackage
+python3 -m pip install --index-url https://test.pypi.org/simple/ example-package-YOUR-USERNAME-HERE
 ```
 
 ## License

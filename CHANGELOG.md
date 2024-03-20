@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v0.1.3
+- [x] add `numpy` to `build-system.requires` in `pyproject.toml`
+
 ## v0.1.2
 - [x] try cleaning the `dist` directory before building the package
 

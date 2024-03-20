@@ -4,22 +4,22 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_samreynoldsmath"
-version = "0.1.6"
+version = "0.1.7"
 authors = [
   { name="Sam Reynolds", email="sreyn@proton.me" },
 ]
 description = "A small example package with a linear solver"
 readme = "README.md"
 requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+license = "MIT"
+dependencies = [
+  "numpy>=1.20.0",
 ]
-
-[options]
-install_requires =
-    numpy >= 1.26.0
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
 
 [project.urls]
 Homepage = "https://github.com/samreynoldsmath/PythonPackageTemplate"
@@ -34,7 +34,7 @@ filterwarnings = ["error"]
 [tool.pylint."messages control"]
 max-line-length = 80
 disable = [
-    "fixme", # reenable to find TODO comments
-    "invalid-name", # use good-names
-    ]
+  "fixme", # reenable to find TODO comments
+  "invalid-name", # use good-names
+]
 good-names = ["A",]

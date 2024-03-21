@@ -3,11 +3,10 @@
 ## Description
 A simple demo of how to structure and use a Python package
 
-## TODO
-- [x] add modules
-- [x] add subpackages
-- [x] add subpackages to subpackage
-- [x] call a module from a neighboring subpackage
-- [x] call a function/class from subpackage with same name
-- [ ] create unit tests
+## Installation
+```bash
+python3 -m pip install --index-url https://test.pypi.org/simple/ example-package-samreynoldsmath
+```
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

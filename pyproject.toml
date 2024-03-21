@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_samreynoldsmath"
+version = "0.1.10"
+authors = [
+  { name="Sam Reynolds", email="sreyn@proton.me" },
+]
+description = "A small example package with a linear solver"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+  "numpy>=1.24.0",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/samreynoldsmath/PythonPackageTemplate"
+Issues = "https://github.com/samreynoldsmath/PythonPackageTemplate/issues"
+
+[tool.black]
+line-length = 80
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]
+
+[tool.pylint."messages control"]
+max-line-length = 80
+disable = [
+  "fixme", # reenable to find TODO comments
+  "invalid-name", # use good-names
+]
+good-names = ["A",]

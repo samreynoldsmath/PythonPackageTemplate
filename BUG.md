@@ -7,6 +7,7 @@
    virtualenv -p python3 test-example-package-samreynoldsmath
    cd test-example-package-samreynoldsmath
    source bin/activate
+   pip install --upgrade pip
    ```
 2. Install the package from `test.pypi.org`
    ```bash

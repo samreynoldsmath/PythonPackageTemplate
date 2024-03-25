@@ -11,9 +11,9 @@ import numpy as np
 
 class Solver:
     """
-    Solver class for solving
-    Ax=b.
+    Solver class for solving Ax=b.
     """
+
     n: int
     A: np.ndarray
     b: np.ndarray

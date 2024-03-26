@@ -1,20 +1,23 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[project]
+[tool.poetry]
 name = "example_package_samreynoldsmath"
 version = "0.1.12"
-authors = [
-  { name="Sam Reynolds", email="sreyn@proton.me" },
-]
+authors = ["Sam Reynolds <sreyn@proton.me>"]
 description = "A small example package with a linear solver"
 readme = "README.md"
-requires-python = ">=3.11"
 license = "MIT"
-dependencies = [
-  "numpy>=1.24.0",
-]
+packages = [{include = "example_package_samreynoldsmath"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",

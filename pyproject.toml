@@ -1,20 +1,23 @@
+[tool.poetry]
+name = "example_package_samreynoldsmath"
+version = "0.2.0"
+authors = ["Sam Reynolds <sreyn@proton.me>"]
+description = "A simple demo of how to structure, use, and publish a Python package."
+readme = "README.md"
+license = "MIT"
+packages = [{include = "example_package_samreynoldsmath"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 
 [project]
-name = "example_package_samreynoldsmath"
-version = "0.1.10"
-authors = [
-  { name="Sam Reynolds", email="sreyn@proton.me" },
-]
-description = "A small example package with a linear solver"
-readme = "README.md"
-requires-python = ">=3.11"
-license = "MIT"
-dependencies = [
-  "numpy>=1.24.0",
-]
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",

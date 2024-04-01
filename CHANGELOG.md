@@ -1,4 +1,19 @@
-# CHANGELOG
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2.1] - 2024-04-01
+
+### Added
+
+- `.github/workflows` directory with a `pylint.yml` file for running `pylint` on the codebase
+
+### Changed
+
+- [x] move Jacobi solver to a new module to test refactoring
 
 ## v0.1.4 - v0.1.16
 - [x] struggle to understand why `pip` would not install the package dependencies when installing from `test.pypi.org`, but finally realize that it does when installing from `pypi.org`

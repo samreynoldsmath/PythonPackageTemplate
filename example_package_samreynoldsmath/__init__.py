@@ -8,5 +8,6 @@ that can be run with `pytest`.
 """
 
 from .solver import Solver
+from .jacobi import jacobi_preconditioned_solve
 
-__all__ = ["Solver"]
+__all__ = ["Solver", "jacobi_preconditioned_solve"]

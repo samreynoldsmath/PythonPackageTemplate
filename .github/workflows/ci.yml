@@ -1,5 +1,4 @@
-name: Pylint
-
+name: CI
 on: [push]
 
 jobs:

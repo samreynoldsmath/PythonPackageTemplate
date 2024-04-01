@@ -19,14 +19,14 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Run formatters
       run: |
-        isort example_package_samreynoldsmath
-        black example_package_samreynoldsmath
+        isort example_package_samreynoldsmath/
+        black example_package_samreynoldsmath/
     - name: Analysing the code with pylint
       run: |
-        pylint example_package_samrenoldsmath
+        pylint example_package_samrenoldsmath/
     - name: Checking types with mypy
       run: |
-        mypy example_package_samreynoldsmath
+        mypy example_package_samreynoldsmath/
     - name: Run tests
       run: |
-        pytest test
+        pytest test/

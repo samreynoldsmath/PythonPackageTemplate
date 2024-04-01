@@ -8,6 +8,7 @@ using Jacobi preconditioning.
 
 import numpy as np
 
+
 def jacobi_preconditioned_solve(A: np.ndarray, b: np.ndarray):
     """
     Solve Ax=b using Jacobi preconditioning.

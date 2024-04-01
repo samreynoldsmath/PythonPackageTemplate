@@ -1,5 +1,5 @@
 name: CI
-on: [pull_request]
+on: [push]
 
 jobs:
   build:
@@ -19,14 +19,14 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Run formatters
       run: |
-        isort example_package_samreynoldsmath test
-        black example_package_samreynoldsmath test
+        isort example_package_samreynoldsmath
+        black example_package_samreynoldsmath
     - name: Analysing the code with pylint
       run: |
-        pylint example_package_samrenoldsmath test
+        pylint example_package_samrenoldsmath
     - name: Checking types with mypy
       run: |
-        mypy example_package_samreynoldsmath test
+        mypy example_package_samreynoldsmath
     - name: Run tests
       run: |
         pytest test

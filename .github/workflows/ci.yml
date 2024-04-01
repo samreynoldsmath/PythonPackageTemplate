@@ -8,8 +8,7 @@ jobs:
       matrix:
         python-version: ["3.11"]
     steps:
-    - name: Check out
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
@@ -20,14 +19,14 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Run formatters
       run: |
-        isort example_package_samreynoldsmath/
-        black example_package_samreynoldsmath/
+        isort example_package_samreynoldsmath test
+        black example_package_samreynoldsmath test
     - name: Analysing the code with pylint
       run: |
-        pylint example_package_samrenoldsmath/
+        pylint example_package_samreynoldsmath test
     - name: Checking types with mypy
       run: |
-        mypy example_package_samreynoldsmath/
+        mypy example_package_samreynoldsmath test
     - name: Run tests
       run: |
-        pytest test/
+        pytest test

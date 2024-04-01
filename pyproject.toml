@@ -38,6 +38,6 @@ filterwarnings = ["error"]
 max-line-length = 80
 disable = [
   "fixme", # reenable to find TODO comments
-  "invalid-name", # use good-names
 ]
-good-names = ["A",]
+good-names = ["A", "B", "C", "D"]
+good-names-rgx = ["A_.*", "B_.*", "C_.*", "D_.*"]

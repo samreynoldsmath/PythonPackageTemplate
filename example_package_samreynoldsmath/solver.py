@@ -8,6 +8,8 @@ Copilot. Good job, Copilot!
 
 import numpy as np
 
+from .jacobi import jacobi_preconditioned_solve
+
 
 class Solver:
     """
@@ -46,6 +48,4 @@ class Solver:
         """
         Solve Ax=b using Jacobi preconditioning.
         """
-        D = np.diag(self.A)
-        D_inv = np.diag(1 / D)
-        return np.linalg.solve(D_inv @ self.A, D_inv @ self.b)
+        return jacobi_preconditioned_solve(self.A, self.b)

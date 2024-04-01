@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "example_package_samreynoldsmath"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Sam Reynolds <sreyn@proton.me>"]
 description = "A simple demo of how to structure, use, and publish a Python package."
 readme = "README.md"
@@ -38,6 +38,6 @@ filterwarnings = ["error"]
 max-line-length = 80
 disable = [
   "fixme", # reenable to find TODO comments
-  "invalid-name", # use good-names
 ]
-good-names = ["A",]
+good-names = ["A", "B", "C", "D"]
+good-names-rgx = ["A_.*", "B_.*", "C_.*", "D_.*"]

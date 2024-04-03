@@ -7,6 +7,7 @@ Solve a linear system
 --------------------
 
 Import the package and `numpy`:
+
 .. code-block:: python
 
     import example_package_samreynoldsmath as mypkg

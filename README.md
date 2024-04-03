@@ -41,5 +41,10 @@ In a fresh virtual environment, install the package using `pip` (replace `exampl
 pip install example-package-samreynoldsmath
 ```
 
+## Documentation
+See documentation for this package on [readthedocs.io](https://pythonpackagetemplate.readthedocs.io/en/latest/index.html).
+
+Want to make documentation for your project? Check out the [tutorial](https://docs.readthedocs.io/en/stable/tutorial/).
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

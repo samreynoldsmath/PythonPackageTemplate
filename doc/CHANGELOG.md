@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- [x] `doc/` directory containing documentation files
+- [x] `doc/source/` directory containing Sphinx configuration files
+- [x] `.readthedocs.yml` file for configuring ReadTheDocs
+- [x] new dev dependency `myst-parser` for parsing markdown files in Sphinx
+
+### Changed
+- [x] `README.md` to include a link to the documentation
+- [x] move `CHANGELOG.md` to the `doc/` directory
+
+
 ## [0.2.1] - 2024-04-01
 
 ### Added

@@ -9,5 +9,5 @@ Contents
 
 .. toctree::
 
-   installation
+   install
    usage

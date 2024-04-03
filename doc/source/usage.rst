@@ -1,29 +1,25 @@
 Usage
 =====
 
-.. _installation:
+This package provides a `Solver` class that can be used to solve a linear system of equations.
 
-Installation
-------------
-
-You can install the package from PyPI using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install example_package_samreynoldsmath
-
-Set up linear system
+Solve a linear system
 --------------------
 
-Create a new `Solver` object and set up the linear system:
-
+Import the package and `numpy`:
 .. code-block:: python
 
     import example_package_samreynoldsmath as mypkg
     import numpy as np
 
+Create a new `Solver` object and set up the linear system:
+
+.. code-block:: python
+
     solver = mypkg.Solver(A=np.array([[1, 2], [3, 4]]), b=np.array([1, 2]))
 
-    x = solver.solve()
+The `solve()` method returns the solution to the linear system:
 
-The `solve` method returns the solution to the linear system.
+.. code-block:: python
+
+    x = solver.solve()

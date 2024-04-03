@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "example_package_samreynoldsmath"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Sam Reynolds <sreyn@proton.me>"]
 description = "A simple demo of how to structure, use, and publish a Python package."
 readme = "README.md"

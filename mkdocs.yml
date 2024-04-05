@@ -1,4 +1,5 @@
 site_name: Python Package Template
+docs_dir: doc
 theme:
   name: readthedocs
   highlightjs: true

@@ -1,12 +1,9 @@
-# Python Package Template
-This documentation was built with [mkdocs.org](https://www.mkdocs.org).
+{!README.md!}
 
-## Description
-A simple demo of how to structure, use, and publish a Python package.
+!!! note
 
-### Links
-- [GitHub](https://github.com/samreynoldsmath/PythonPackageTemplate)
+    This documentation was built with [mkdocs.org](https://www.mkdocs.org).
 
-## Index
+## Documentation
 - [Home](index.md)
 - [Changelog](CHANGELOG.md)
